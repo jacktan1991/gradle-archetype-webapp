@@ -1,5 +1,5 @@
 apply plugin: 'war'
 
 dependencies {
-  test 'junit:junit:${junitVsn}'
+  testCompile 'junit:junit:${junitVsn}'
 }
